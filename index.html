@@ -1,168 +1,192 @@
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aadi Shakti Job Placement | MSME Registered Recruitment Consultancy in Ludhiana</title>
-    <meta name="description" content="Trusted MSME registered job placement services in Ludhiana, Punjab. Paid assistance for private sector opportunities.">
-    
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { 
-            font-family: 'Segoe UI', Arial, sans-serif; 
-            background: #f8f9fa; 
-            color: #333; 
-            line-height: 1.6; 
-        }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        .section { padding: 60px 0; }
-        h1, h2 { color: #0a3d62; text-align: center; margin-bottom: 30px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
-        .card { 
-            background: white; 
-            padding: 25px; 
-            border-radius: 12px; 
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
-            transition: transform 0.3s, box-shadow 0.3s; 
-            text-align: center; 
-        }
-        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-        .badge { background: #0a3d62; color: white; font-weight: bold; padding: 15px; border-radius: 8px; font-size: 1.1em; }
-        .banner { width: 100%; max-height: 400px; object-fit: cover; }
-        .logo { display: block; margin: 20px auto; max-width: 250px; border-radius: 12px; }
-        .jobs li { margin-bottom: 12px; font-size: 1.1em; list-style-type: none; padding-left: 20px; position: relative; }
-        .jobs li:before { content: "▶"; color: #0a3d62; position: absolute; left: 0; }
-        .notice { background: #e8f4fd; border-left: 6px solid #0a3d62; padding: 20px; border-radius: 8px; margin: 20px 0; }
-        .whatsapp { 
-            position: fixed; bottom: 25px; right: 25px; 
-            background: #25d366; color: white; 
-            width: 65px; height: 65px; border-radius: 50%; 
-            font-size: 32px; text-align: center; line-height: 65px; 
-            box-shadow: 0 6px 15px rgba(0,0,0,0.3); text-decoration: none; 
-            transition: transform 0.3s; z-index: 1000; 
-        }
-        .whatsapp:hover { transform: scale(1.1); }
-        footer { background: #0a3d62; color: white; text-align: center; padding: 30px 0; margin-top: 40px; }
-        @media (max-width: 768px) { .section { padding: 40px 0; } h1, h2 { font-size: 1.8em; } }
-    </style>
+<meta charset="UTF-8">
+<title>Aadi Shakti Job Placement | MSME Recruitment Consultancy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="MSME Registered Recruitment & Manpower Consultancy in Ludhiana. Private sector job placement with transparency.">
+<meta name="robots" content="index, follow">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#f4f7fb;color:#222;overflow-x:hidden}
+
+/* ===== HERO (3D GLASS) ===== */
+.hero{
+  min-height:100vh;
+  background:linear-gradient(120deg,#0a3d62,#1e90ff);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  perspective:1200px;
+}
+.hero-box{
+  background:rgba(255,255,255,0.15);
+  backdrop-filter:blur(18px);
+  padding:55px 40px;
+  border-radius:22px;
+  text-align:center;
+  color:#fff;
+  box-shadow:0 30px 60px rgba(0,0,0,0.35);
+  transform:rotateX(8deg) rotateY(-8deg);
+  transition:transform .4s ease;
+}
+.hero-box:hover{transform:rotateX(0) rotateY(0) scale(1.05)}
+.hero h1{font-size:2.8rem;font-weight:700}
+.hero p{margin:18px 0 28px;font-size:1.1rem}
+.btn{
+  display:inline-block;
+  padding:14px 34px;
+  background:#25d366;
+  color:#fff;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* ===== SECTIONS ===== */
+.section{padding:80px 20px}
+.section.dark{background:#0a3d62;color:#fff}
+.section h2{text-align:center;margin-bottom:45px;font-size:2.2rem}
+
+/* ===== CARDS ===== */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:28px;
+  max-width:1200px;
+  margin:auto;
+}
+.card{
+  background:#fff;
+  padding:28px;
+  border-radius:18px;
+  text-align:center;
+  box-shadow:0 15px 30px rgba(0,0,0,0.15);
+  transition:.35s;
+}
+.section.dark .card{
+  background:rgba(255,255,255,0.15);
+  color:#fff;
+}
+.card:hover{
+  transform:translateY(-12px) scale(1.05);
+  box-shadow:0 25px 45px rgba(0,0,0,0.25);
+}
+
+/* ===== TEXT ===== */
+.center{
+  max-width:900px;
+  margin:auto;
+  text-align:center;
+  font-size:1.1rem;
+  line-height:1.7;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  background:#000;
+  color:#aaa;
+  text-align:center;
+  padding:30px 15px;
+  font-size:.95rem;
+}
+
+/* ===== WHATSAPP ===== */
+.whatsapp{
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  width:65px;
+  height:65px;
+  background:#25d366;
+  color:#fff;
+  border-radius:50%;
+  font-size:32px;
+  text-align:center;
+  line-height:65px;
+  text-decoration:none;
+  box-shadow:0 10px 20px rgba(0,0,0,.35);
+}
+</style>
 </head>
+
 <body>
 
-    <!-- BANNER -->
-    <img src="banner.jpg" alt="Aadi Shakti Job Placement Banner - Recruitment Services in Ludhiana" class="banner" loading="lazy">
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-box" id="heroBox">
+    <h1>Aadi Shakti Job Placement</h1>
+    <p>
+      <strong>MSME (Udyam) Registered Recruitment & Manpower Consultancy</strong><br>
+      Ludhiana, Punjab
+    </p>
+    <a href="https://wa.me/918427019470" class="btn">Contact on WhatsApp</a>
+  </div>
+</section>
 
-    <div class="container">
-        <h1>Aadi Shakti Job Placement</h1>
-        <p style="text-align: center; font-size: 1.2em; color: #0a3d62; margin-bottom: 20px;">
-            <strong>MSME (Udyam) Registered Recruitment & Manpower Consultancy</strong><br>
-            <em>Ludhiana, Punjab</em>
-        </p>
+<!-- ===== SERVICES ===== -->
+<section class="section">
+<h2>What We Do</h2>
+<div class="grid">
+  <div class="card">Private Sector Job Placement</div>
+  <div class="card">Permanent & Temporary Staffing</div>
+  <div class="card">Bulk Hiring Solutions</div>
+  <div class="card">Freshers & Walk-In Support</div>
+</div>
+</section>
 
-        <!-- LOGO -->
-        <img src="logo.png" alt="Aadi Shakti Job Placement Logo" class="logo" loading="lazy">
+<!-- ===== ROLES ===== -->
+<section class="section dark">
+<h2>Roles We Handle</h2>
+<div class="grid">
+  <div class="card">Accountant</div>
+  <div class="card">Sales & Marketing</div>
+  <div class="card">Manager / In-Charge</div>
+  <div class="card">Chef / Cook Helper</div>
+  <div class="card">Security Guard</div>
+  <div class="card">Travel Industry Staff</div>
+</div>
+</section>
 
-        <!-- WHO WE ARE -->
-        <section class="section">
-            <h2>Who We Are</h2>
-            <div class="grid">
-                <div class="card">
-                    <p>We are a <strong>trusted, local MSME-registered</strong> recruitment consultancy based in Ludhiana, Punjab.  
-                    We specialize in providing <strong>paid placement assistance</strong> and reliable manpower support for <strong>private sector companies</strong>.</p>
-                </div>
-                <div class="card">
-                    <h3>Our Key Services</h3>
-                    <ul class="jobs">
-                        <li>Permanent & Temporary Staffing</li>
-                        <li>Bulk Hiring Solutions</li>
-                        <li>Freshers & Walk-in Interview Support</li>
-                        <li>Local Expertise in Ludhiana & Punjab</li>
-                    </ul>
-                    <p>We connect talented candidates with genuine private sector opportunities and help companies find the right manpower.</p>
-                </div>
-            </div>
-        </section>
+<!-- ===== POLICY ===== -->
+<section class="section">
+<h2>Transparency Policy</h2>
+<p class="center">
+We provide <strong>paid placement assistance</strong> strictly for private sector opportunities.  
+All service charges (if applicable) are explained clearly before any commitment.
+</p>
+</section>
 
-        <!-- ROLES -->
-        <section class="section">
-            <h2>Roles We Commonly Handle</h2>
-            <div class="grid">
-                <div class="card">Accountant</div>
-                <div class="card">Video / Audio Editor</div>
-                <div class="card">Chef & Cook Helper</div>
-                <div class="card">Manager / In-Charge</div>
-                <div class="card">Business Development Manager</div>
-                <div class="card">Sales & Marketing Executive</div>
-                <div class="card">Travel Sector Staff</div>
-                <div class="card">Security Guard</div>
-            </div>
-            <p style="text-align: center; margin-top: 20px; font-style: italic;">...and many more roles across various private industries!</p>
-        </section>
+<!-- ===== CONTACT ===== -->
+<section class="section dark">
+<h2>Contact Us</h2>
+<p class="center">
+📍 Dhandra Road, Dugri – Ludhiana<br>
+📞 +91 84270 19470<br>
+✉ aadishaktiindias@gmail.com
+</p>
+</section>
 
-        <!-- WHY CHOOSE US -->
-        <section class="section">
-            <h2>Why Choose Aadi Shakti?</h2>
-            <div class="grid">
-                <div class="card badge">✅ MSME (Udyam) Registered</div>
-                <div class="card badge">✅ Specialized in Private Sector Opportunities</div>
-                <div class="card badge">✅ Experienced Local Coordination Team</div>
-                <div class="card badge">✅ Transparent & Professional Process</div>
-            </div>
-            <p style="text-align: center; margin-top: 20px; font-weight: bold;">Last Updated: January 18, 2026 – Openings refreshed regularly!</p>
-        </section>
+<footer>
+© 2026 Aadi Shakti Job Placement<br>
+MSME Registered Recruitment & Manpower Consultancy<br>
+<em>Private sector opportunities only</em>
+</footer>
 
-        <!-- LATEST JOBS -->
-        <section class="section">
-            <h2>Latest Job Openings (Ludhiana Area)</h2>
-            <ul class="jobs">
-                <li>HR Executive – Private Firm, Ludhiana</li>
-                <li>Accountant – Manufacturing Unit</li>
-                <li>Sales Executive – Field Work</li>
-                <li>Security Guard – Day / Night Shift</li>
-            </ul>
-            <p style="text-align: center; margin-top: 20px; font-style: italic;">More opportunities added frequently – WhatsApp us for the latest list!</p>
-        </section>
+<a class="whatsapp" href="https://wa.me/918427019470" target="_blank">💬</a>
 
-        <!-- PAYMENT POLICY -->
-        <section class="section">
-            <h2>Payment & Service Policy</h2>
-            <div class="notice">
-                <p>We offer <strong>professional paid placement assistance</strong> services for private sector jobs.</p>
-                <h3>Our Commitment to Transparency</h3>
-                <ul class="jobs">
-                    <li>All service charges (if applicable) are <strong>clearly communicated upfront</strong></li>
-                    <li>Payment is accepted only <strong>after full candidate agreement</strong> and understanding</li>
-                    <li>Complete transparency – All terms shared in advance</li>
-                    <li>We focus on genuine matching based on your profile & requirements</li>
-                </ul>
-                <p>Your satisfaction and a smooth process are our top priorities!</p>
-            </div>
-        </section>
-
-        <!-- CONTACT -->
-        <section class="section">
-            <h2>Contact Us</h2>
-            <div class="grid">
-                <div class="card">
-                    <p><strong>Address:</strong><br>Dhandra Road, Urban Estate Dugri, Ludhiana, Punjab – 141013</p>
-                    <p><strong>Phone / WhatsApp:</strong><br>+91 84270 19470</p>
-                    <p><strong>Email:</strong><br>aadishaktiindias@gmail.com</p>
-                </div>
-                <div class="card">
-                    <p style="font-size: 1.2em; margin-bottom: 20px;">Ready to get started? Message us now!</p>
-                    <a href="https://wa.me/918427019470?text=Hello%20Sir%2C%20I%20am%20interested%20in%20private%20sector%20job%20opportunities%20in%20Ludhiana" 
-                       class="whatsapp" target="_blank">💬</a>
-                </div>
-            </div>
-            <p style="text-align: center; margin-top: 20px;">We're here to assist with your job search or hiring needs – Message us anytime!</p>
-        </section>
-    </div>
-
-    <footer>
-        <p>© 2026 Aadi Shakti Job Placement</p>
-        <p>MSME Registered Recruitment & Manpower Consultancy | Ludhiana, Punjab</p>
-        <p style="font-style: italic;">Connecting local talent with private sector opportunities ethically</p>
-    </footer>
+<script>
+/* 3D mouse effect */
+document.addEventListener("mousemove",e=>{
+  const box=document.getElementById("heroBox");
+  const x=(window.innerWidth/2-e.pageX)/35;
+  const y=(window.innerHeight/2-e.pageY)/35;
+  box.style.transform=`rotateX(${y}deg) rotateY(${-x}deg)`;
+});
+</script>
 
 </body>
 </html>
