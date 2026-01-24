@@ -1,0 +1,15 @@
+name: Auto Website Update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Done
+        run: echo "Website auto update ho gayi 🚀"
+        
